@@ -1,0 +1,26 @@
+{
+    "name": "epzuz/wazzup-sdk",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Epzuz\\WazzupSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stanislav Tsarkov",
+            "email": "epzuz@yandex.ru"
+        }
+    ],
+    "require": {
+        "nyholm/psr7": "^1.2",
+        "psr/http-client": "^1.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "scripts": {
+        "test-unit": "vendor/bin/phpunit --colors=always --coverage-html coverage-report-html --bootstrap tests/Unit/bootstrap.php tests/Unit/"
+    }
+}
