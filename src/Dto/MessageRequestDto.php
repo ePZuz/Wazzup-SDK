@@ -48,7 +48,7 @@ class MessageRequestDto implements WazzupRequestDtoInterface
             'clearUnanswered' => $this->clearUnanswered,
             'templateId'      => $this->templateId,
             'templateValues'  => $this->templateValues,
-            'buttonsObject'   => $this->buttonsObject,
+            'buttonsObject'   => !empty($this->buttonsObject) ? $this->buttonsObject : null,
         ];
     }
 }
