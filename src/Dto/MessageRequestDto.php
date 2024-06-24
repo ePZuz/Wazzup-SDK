@@ -28,7 +28,7 @@ class MessageRequestDto implements WazzupRequestDtoInterface
 
     public function addButton(MessageButtonDto $button): MessageRequestDto
     {
-        $this->buttonsObject[] = $button;
+        $this->buttonsObject['buttons'][] = $button;
         return $this;
     }
 
