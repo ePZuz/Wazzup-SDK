@@ -1,6 +1,6 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Modules;
+namespace Foxtes\WazzupDriver\Modules;
 
 class Contacts extends WazzupModuleWithCRUD
 {

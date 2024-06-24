@@ -1,6 +1,6 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Response;
+namespace Foxtes\WazzupDriver\Response;
 
 use Psr\Http\Message\ResponseInterface;
 

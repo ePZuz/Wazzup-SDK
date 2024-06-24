@@ -1,15 +1,15 @@
 {
-    "name": "epzuz/wazzup-sdk",
+    "name": "foxtes/wazzup-driver",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Epzuz\\WazzupSdk\\": "src/"
+            "Foxtes\\WazzupDriver\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Stanislav Tsarkov",
-            "email": "epzuz@yandex.ru"
+            "name": "Maxim",
+            "email": "maxim.abdalov@gmail.com"
         }
     ],
     "require": {
@@ -19,8 +19,5 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^10.5"
-    },
-    "scripts": {
-        "test-unit": "vendor/bin/phpunit --colors=always --coverage-html coverage-report-html --bootstrap tests/Unit/bootstrap.php tests/Unit/"
     }
 }

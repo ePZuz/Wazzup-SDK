@@ -1,9 +1,9 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Modules;
+namespace Foxtes\WazzupDriver\Modules;
 
-use Epzuz\WazzupSdk\Dto\UserAddRequestDto;
-use Epzuz\WazzupSdk\Exceptions\RequestException;
+use Foxtes\WazzupDriver\Dto\UserAddRequestDto;
+use Foxtes\WazzupDriver\Exceptions\RequestException;
 
 class Users extends WazzupModuleWithCRUD
 {

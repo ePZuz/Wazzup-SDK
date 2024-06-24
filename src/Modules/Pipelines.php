@@ -1,10 +1,10 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Modules;
+namespace Foxtes\WazzupDriver\Modules;
 
-use Epzuz\WazzupSdk\Dto\ListRequestDto;
-use Epzuz\WazzupSdk\Dto\PipelineDto;
-use Epzuz\WazzupSdk\Dto\PipelinesRequestDto;
+use Foxtes\WazzupDriver\Dto\ListRequestDto;
+use Foxtes\WazzupDriver\Dto\PipelineDto;
+use Foxtes\WazzupDriver\Dto\PipelinesRequestDto;
 
 class Pipelines extends WazzupModule
 {

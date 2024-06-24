@@ -1,9 +1,9 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Http;
+namespace Foxtes\WazzupDriver\Http;
 
-use Epzuz\WazzupSdk\Exceptions\RequestException;
-use Epzuz\WazzupSdk\Interfaces\WazzupRequestDtoInterface;
+use Foxtes\WazzupDriver\Exceptions\RequestException;
+use Foxtes\WazzupDriver\Interfaces\WazzupRequestDtoInterface;
 use Nyholm\Psr7\Request;
 use Nyholm\Psr7\Uri;
 use Psr\Http\Client\ClientExceptionInterface;

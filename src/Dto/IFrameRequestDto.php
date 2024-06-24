@@ -1,8 +1,8 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Dto;
+namespace Foxtes\WazzupDriver\Dto;
 
-use Epzuz\WazzupSdk\Interfaces\WazzupRequestDtoInterface;
+use Foxtes\WazzupDriver\Interfaces\WazzupRequestDtoInterface;
 
 class IFrameRequestDto implements WazzupRequestDtoInterface
 {

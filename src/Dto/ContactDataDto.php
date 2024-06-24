@@ -1,8 +1,8 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Dto;
+namespace Foxtes\WazzupDriver\Dto;
 
-use Epzuz\WazzupSdk\Interfaces\WazzupItemDtoInterface;
+use Foxtes\WazzupDriver\Interfaces\WazzupItemDtoInterface;
 
 class ContactDataDto implements WazzupItemDtoInterface
 {

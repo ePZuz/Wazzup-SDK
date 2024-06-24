@@ -1,9 +1,9 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Modules;
+namespace Foxtes\WazzupDriver\Modules;
 
-use Epzuz\WazzupSdk\Dto\IFrameRequestDto;
-use Epzuz\WazzupSdk\Exceptions\RequestException;
+use Foxtes\WazzupDriver\Dto\IFrameRequestDto;
+use Foxtes\WazzupDriver\Exceptions\RequestException;
 
 class IFrame extends WazzupModule
 {

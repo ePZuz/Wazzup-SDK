@@ -1,9 +1,9 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Modules;
+namespace Foxtes\WazzupDriver\Modules;
 
-use Epzuz\WazzupSdk\Dto\WebhookDto;
-use Epzuz\WazzupSdk\Exceptions\RequestException;
+use Foxtes\WazzupDriver\Dto\WebhookDto;
+use Foxtes\WazzupDriver\Exceptions\RequestException;
 
 class Webhooks extends WazzupModule
 {

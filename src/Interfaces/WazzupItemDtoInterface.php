@@ -1,6 +1,6 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Interfaces;
+namespace Foxtes\WazzupDriver\Interfaces;
 
 interface WazzupItemDtoInterface
 {

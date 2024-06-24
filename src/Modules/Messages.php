@@ -1,9 +1,9 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Modules;
+namespace Foxtes\WazzupDriver\Modules;
 
-use Epzuz\WazzupSdk\Dto\MessageRequestDto;
-use Epzuz\WazzupSdk\Exceptions\RequestException;
+use Foxtes\WazzupDriver\Dto\MessageRequestDto;
+use Foxtes\WazzupDriver\Exceptions\RequestException;
 
 class Messages extends WazzupModule
 {

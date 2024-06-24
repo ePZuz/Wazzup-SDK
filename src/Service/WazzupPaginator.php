@@ -1,9 +1,9 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Service;
+namespace Foxtes\WazzupDriver\Service;
 
-use Epzuz\WazzupSdk\Interfaces\WazzupItemDtoInterface;
-use Epzuz\WazzupSdk\Response\WazzupResponse;
+use Foxtes\WazzupDriver\Interfaces\WazzupItemDtoInterface;
+use Foxtes\WazzupDriver\Response\WazzupResponse;
 
 class WazzupPaginator
 {

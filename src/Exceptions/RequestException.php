@@ -1,6 +1,6 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Exceptions;
+namespace Foxtes\WazzupDriver\Exceptions;
 
 
 class RequestException extends \Exception

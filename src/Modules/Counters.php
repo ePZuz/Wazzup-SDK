@@ -1,8 +1,8 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Modules;
+namespace Foxtes\WazzupDriver\Modules;
 
-use Epzuz\WazzupSdk\Http\Api;
+use Foxtes\WazzupDriver\Http\Api;
 
 class Counters extends WazzupModule
 {

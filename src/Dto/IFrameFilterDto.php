@@ -1,6 +1,6 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Dto;
+namespace Foxtes\WazzupDriver\Dto;
 
 class IFrameFilterDto
 {

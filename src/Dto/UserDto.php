@@ -1,9 +1,9 @@
 <?php
 
-namespace Epzuz\WazzupSdk\Dto;
+namespace Foxtes\WazzupDriver\Dto;
 
-use Epzuz\WazzupSdk\Interfaces\WazzupItemDtoInterface;
-use Epzuz\WazzupSdk\Interfaces\WazzupRequestDtoInterface;
+use Foxtes\WazzupDriver\Interfaces\WazzupItemDtoInterface;
+use Foxtes\WazzupDriver\Interfaces\WazzupRequestDtoInterface;
 
 class UserDto implements WazzupItemDtoInterface
 {

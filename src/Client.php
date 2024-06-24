@@ -1,17 +1,17 @@
 <?php
 
-namespace Epzuz\WazzupSdk;
+namespace Foxtes\WazzupDriver;
 
-use Epzuz\WazzupSdk\Modules\Channels;
-use Epzuz\WazzupSdk\Modules\Contacts;
-use Epzuz\WazzupSdk\Modules\Counters;
-use Epzuz\WazzupSdk\Modules\Deals;
-use Epzuz\WazzupSdk\Modules\IFrame;
-use Epzuz\WazzupSdk\Http\Api;
-use Epzuz\WazzupSdk\Modules\Messages;
-use Epzuz\WazzupSdk\Modules\Pipelines;
-use Epzuz\WazzupSdk\Modules\Users;
-use Epzuz\WazzupSdk\Modules\Webhooks;
+use Foxtes\WazzupDriver\Modules\Channels;
+use Foxtes\WazzupDriver\Modules\Contacts;
+use Foxtes\WazzupDriver\Modules\Counters;
+use Foxtes\WazzupDriver\Modules\Deals;
+use Foxtes\WazzupDriver\Modules\IFrame;
+use Foxtes\WazzupDriver\Http\Api;
+use Foxtes\WazzupDriver\Modules\Messages;
+use Foxtes\WazzupDriver\Modules\Pipelines;
+use Foxtes\WazzupDriver\Modules\Users;
+use Foxtes\WazzupDriver\Modules\Webhooks;
 use Psr\Http\Client\ClientInterface;
 
 class Client
