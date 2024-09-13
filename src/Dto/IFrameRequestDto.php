@@ -10,11 +10,11 @@ class IFrameRequestDto implements WazzupRequestDtoInterface
     public string $userName;
     public string $scope = 'global';
     public ?IFrameOptionsDto $options = null;
-    public ?IFrameFilterDto $filter = null;
+    public ?array $filter = [];
 
     public function toArray(): array
     {
-        $array = [
+        $result = [
             'user'    => [
                 'id'   => $this->userId ?? null,
                 'name' => $this->userName ?? null,
@@ -22,11 +22,17 @@ class IFrameRequestDto implements WazzupRequestDtoInterface
             'scope'   => $this->scope,
         ];
         if ($this->options !== null) {
-            $array['options'] = $this->options;
+            $result['options'] = $this->options;
         }
-        if ($this->filter !== null) {
-            $array['filter'] = $this->filter;
+        if (!empty($this->filter)) {
+            $result['filter'] = $this->filter;
         }
-        return $array;
+        return $result;
+    }
+
+    public function addFilter(IFrameFilterDto $filterDto): IFrameRequestDto
+    {
+        $this->filter[] = $filterDto;
+        return $this;
     }
 }
