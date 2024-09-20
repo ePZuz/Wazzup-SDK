@@ -34,7 +34,7 @@ class MessageRequestDto implements WazzupRequestDtoInterface
 
     public function toArray(): array
     {
-        return [
+        $array = [
             'channelId'       => $this->channelId,
             'chatType'        => $this->chatType,
             'chatId'          => $this->chatId,
@@ -47,8 +47,12 @@ class MessageRequestDto implements WazzupRequestDtoInterface
             'phone'           => $this->phone,
             'clearUnanswered' => $this->clearUnanswered,
             'templateId'      => $this->templateId,
-            'templateValues'  => $this->templateValues,
-            'buttonsObject'   => !empty($this->buttonsObject) ? $this->buttonsObject : null,
+            'templateValues'  => $this->templateValues
         ];
+        if (!empty($this->buttonsObject)) {
+            $array['buttonsObject'] = $this->buttonsObject;
+        }
+        return $array;
+        
     }
 }
